@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/static/nav.css" />
+		<link rel="stylesheet" href="/static/admin.css" />
+		<title>Admin Panel</title>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="admin.html">Manage Menu</a></li>
+				<li><a href="order.html">Order</a></li>
+				<li><a href="view_orders.html">view orders</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<h1>Admin Panel</h1>
+			<form id="add-menu-form">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required />
+
+				<label for="price">Price:</label>
+				<input type="number" id="price" name="price" required />
+
+				<label for="availability">Availability:</label>
+				<select id="availability" name="availability" required>
+					<option value="true">Available</option>
+					<option value="false">Not Available</option>
+				</select>
+
+				<button type="submit" style="background-color: black; color: white">
+					Add Menu
+				</button>
+			</form>
+
+			<h2>Menu List</h2>
+			<table id="menu-table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Price</th>
+						<th>Availability</th>
+						<th>Actions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- Menu items will be dynamically added -->
+				</tbody>
+			</table>
+			<div id="updateModal" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2>Update Menu Item</h2>
+					<form id="updateForm">
+						<label for="itemName">Name:</label>
+						<input type="text" id="itemName" required />
+						<label for="itemPrice">Price:</label>
+						<input type="number" id="itemPrice" required />
+						<label for="itemAvailability">Availability:</label>
+						<input type="checkbox" id="itemAvailability" />
+						<button type="submit">Update</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="static/admin.js"></script>
+	</body>
+</html>

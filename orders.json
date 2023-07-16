@@ -1,0 +1,79 @@
+[
+	{
+		"id": 3,
+		"customer_name": "customer1",
+		"status": "received",
+		"items": [
+			{
+				"dish_id": 1,
+				"dish_name": "Pizza"
+			}
+		]
+	},
+	{
+		"customer_name": "customer2",
+		"items": [
+			{
+				"dish_id": 2,
+				"quantity": 1
+			}
+		],
+		"id": 5,
+		"total_price": 5.99
+	},
+	{
+		"customer_name": "customer2",
+		"items": [
+			{
+				"dish_id": 2,
+				"quantity": 2
+			}
+		],
+		"id": 6,
+		"total_price": 11.98
+	},
+	{
+		"customer_name": "customer2",
+		"items": [
+			{
+				"dish_id": 1,
+				"quantity": 2
+			}
+		],
+		"id": 9,
+		"total_price": 21.98
+	},
+	{
+		"customer_name": "customer1",
+		"items": [
+			{
+				"dish_id": 2,
+				"quantity": 2
+			}
+		],
+		"id": 10,
+		"total_price": 11.98
+	},
+	{
+		"customer_name": "customer1",
+		"items": [
+			{
+				"dish_id": 11,
+				"quantity": 5
+			}
+		],
+		"id": 11,
+		"total_price": 0
+	},
+	{
+		"customer_name": "customer1",
+		"items": [
+			{
+				"dish_id": 13,
+				"quantity": 5
+			}
+		],
+		"id": 14,
+		"total_price": 100
+	}
+]
