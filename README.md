@@ -30,7 +30,7 @@
 
 ## About The Project
 
-The Zesty Zomato Menu Management System is a powerful command-line tool designed to help Zesty Zomato, a popular restaurant in Mumbai, efficiently manage their food delivery service. With this system, Zesty Zomato staff can effortlessly add new dishes, update availability, receive and process customer orders, track order status, and review all orders. The system provides a user-friendly interface and robust error handling to ensure smooth operations.
+The Zesty Zomato Menu Management System is a powerful tool designed to help Zesty Zomato, a popular restaurant in Mumbai, efficiently manage its food delivery service. With this system, Zesty Zomato staff can effortlessly add new dishes, update availability, receive and process customer orders, track order status, and review all orders. The system provides a user-friendly interface and robust error handling to ensure smooth operations.
 
 ### Built With
 
@@ -47,7 +47,7 @@ To get a local copy up and running follow these simple steps.
 1.  Clone the repo
 
 ```
-git clone https://github.com/sahu-neha/Zesty-Zomato-with-Python-Flask.git
+git clone https://github.com/sahu-neha/Zomato.git
 ```
 
 2. Run the program
@@ -60,11 +60,11 @@ python app.py
 
 ### 1. Display Menu
 
-Display the current menu with dish details, including dish ID, name, price, availability, and stock count.
+Display the current menu with dish details, including dish ID, name, price, availability, and stock count
 
 ### 2. Add a Dish
 
-Add a new dish to the menu by providing dish details such as name, price, and stock count.
+Add a new dish to the menu by providing details such as name, price, and stock count.
 
 ### 3. Remove a Dish
 
@@ -76,7 +76,7 @@ Update the details of a dish, including name, price, availability, and stock cou
 
 ### 5. Take Customer Orders
 
-Process customer orders by entering customer name and dish IDs, with automatic availability and stock count updates.
+Process customer orders by entering customer names and dish IDs, with automatic availability and stock count updates.
 
 ### 6. Update Order Status
 
